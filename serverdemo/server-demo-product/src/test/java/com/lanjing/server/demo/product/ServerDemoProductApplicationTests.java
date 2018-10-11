@@ -1,4 +1,4 @@
-package com.lanjing.eureka;
+package com.lanjing.server.demo.product;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class ApplicationTests {
+public class ServerDemoProductApplicationTests {
 
 	@Test
 	public void contextLoads() {
