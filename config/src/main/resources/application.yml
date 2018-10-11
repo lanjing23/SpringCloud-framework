@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: lanjing-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/lanjing23/config-repo
+          username: 834409267@qq.com
+          password: BmxR730T8e2e35l
+          basedir: /Users/liusx/github/SpringCloud-framework/repos
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    ip-address: true
